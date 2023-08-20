@@ -1,0 +1,32 @@
+2023-08-20 23:58:10.523 - app - ERROR - _connect:76 - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials ik20-20020a170902ab1400b001b9da8b4eb7sm5504352plb.35 - gsmtp')
+2023-08-20 23:58:10.524 - app - INFO - _connect:78 - 
+	Type: Mail Sender 
+	Connection to server: (smtp.gmail.com, 465) 
+	Username : ashishsingh50899@gmail.com 
+	Connected (status): False
+
+2023-08-20 23:58:10.526 - app - ERROR - retry:43 - Function send_all raised ConnectionError. Retrying (1/3) after 2 seconds...
+2023-08-20 23:58:13.841 - app - ERROR - _connect:76 - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials ik20-20020a170902ab1400b001b9da8b4eb7sm5504352plb.35 - gsmtp')
+2023-08-20 23:58:13.843 - app - INFO - _connect:78 - 
+	Type: Mail Sender 
+	Connection to server: (smtp.gmail.com, 465) 
+	Username : ashishsingh50899@gmail.com 
+	Connected (status): False
+
+2023-08-20 23:58:13.844 - app - ERROR - retry:43 - Function send_all raised ConnectionError. Retrying (2/3) after 2 seconds...
+2023-08-20 23:58:17.146 - app - ERROR - _connect:76 - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials ik20-20020a170902ab1400b001b9da8b4eb7sm5504352plb.35 - gsmtp')
+2023-08-20 23:58:17.147 - app - INFO - _connect:78 - 
+	Type: Mail Sender 
+	Connection to server: (smtp.gmail.com, 465) 
+	Username : ashishsingh50899@gmail.com 
+	Connected (status): False
+
+2023-08-20 23:58:17.147 - app - ERROR - retry:43 - Function send_all raised ConnectionError. Retrying (3/3) after 2 seconds...
+2023-08-20 23:58:20.449 - app - ERROR - _connect:76 - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials ik20-20020a170902ab1400b001b9da8b4eb7sm5504352plb.35 - gsmtp')
+2023-08-20 23:58:20.450 - app - INFO - _connect:78 - 
+	Type: Mail Sender 
+	Connection to server: (smtp.gmail.com, 465) 
+	Username : ashishsingh50899@gmail.com 
+	Connected (status): False
+
+2023-08-20 23:58:20.451 - app - ERROR - exceptions:23 - send_all error : Not connected to any server. Try self.connect() first

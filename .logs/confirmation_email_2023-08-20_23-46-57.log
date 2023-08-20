@@ -1,0 +1,25 @@
+2023-08-20 23:46:59.977 - app - ERROR - _connect:76 - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials g19-20020a170902869300b001b896d0eb3dsm5351658plo.8 - gsmtp')
+2023-08-20 23:46:59.978 - app - INFO - _connect:78 - 
+	Type: Mail Sender 
+	Connection to server: (smtp.gmail.com, 465) 
+	Username : ashishsingh50899@gmail.com 
+	Connected (status): False
+
+2023-08-20 23:46:59.978 - app - ERROR - retry:42 - Function send_all raised ConnectionError. Retrying (1/3)...
+2023-08-20 23:47:02.299 - app - ERROR - _connect:76 - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials g19-20020a170902869300b001b896d0eb3dsm5351658plo.8 - gsmtp')
+2023-08-20 23:47:02.300 - app - INFO - _connect:78 - 
+	Type: Mail Sender 
+	Connection to server: (smtp.gmail.com, 465) 
+	Username : ashishsingh50899@gmail.com 
+	Connected (status): False
+
+2023-08-20 23:47:02.302 - app - ERROR - retry:42 - Function send_all raised ConnectionError. Retrying (2/3)...
+2023-08-20 23:47:04.600 - app - ERROR - _connect:76 - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials g19-20020a170902869300b001b896d0eb3dsm5351658plo.8 - gsmtp')
+2023-08-20 23:47:04.601 - app - INFO - _connect:78 - 
+	Type: Mail Sender 
+	Connection to server: (smtp.gmail.com, 465) 
+	Username : ashishsingh50899@gmail.com 
+	Connected (status): False
+
+2023-08-20 23:47:04.601 - app - ERROR - retry:42 - Function send_all raised ConnectionError. Retrying (3/3)...
+2023-08-20 23:47:04.602 - app - ERROR - exceptions:23 - send_all error : Not connected to any server. Try self.connect() first

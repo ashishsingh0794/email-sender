@@ -1,0 +1,4 @@
+{
+    "python.defaultInterpreterPath": "/home/ashish/Documents/Development/github_repositories/personal/email_sender/.venv/bin/python3.11",
+    "jupyter.interactiveWindow.textEditor.executeSelection": true
+}

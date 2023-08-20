@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Environments
+.venv
+
+# Additional Example Templates & Images
+data/templates/img/welcome-hero.jpg
+data/templates/base.html
+data/templates/digest.html
+data/templates/password-reset.html
+data/templates/receipt.html
+data/templates/welcome.html

@@ -1,0 +1,43 @@
+version: 1
+disable_existing_loggers: no
+formatters:
+  simple:
+    format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  verbose:
+    format: "%(asctime)s - %(name)s - %(levelname)s - %(funcName)s:%(lineno)d - %(message)s"
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: simple
+    stream: ext://sys.stdout
+  file:
+    class: logging.handlers.TimedRotatingFileHandler
+    level: DEBUG
+    formatter: verbose
+    when: D
+    backupCount: 0
+    encoding: utf8
+    delay: True
+    utc: True
+  # uvicorn:
+  #   class: logging.handlers.TimedRotatingFileHandler
+  #   level: DEBUG
+  #   formatter: verbose
+  #   when: D
+  #   backupCount: 0
+  #   filename: ./logs/uvicorn.log
+loggers:
+  root:
+    level: DEBUG
+    handlers: [console]
+  app:
+    level: DEBUG
+    handlers: [console, file]
+    propagate: False
+    qualname: app
+  # uvicorn:
+  #   level: INFO
+  #   handlers: [uvicorn]
+  #   propagate: False
+  #   qualname: uvicorn

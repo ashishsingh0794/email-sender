@@ -1,0 +1,12 @@
+base:
+  sender: Standard Chartered Bank
+  template_folder: ./data/templates
+  logo_img: /img/bank_logo.png
+type:
+  confirmation_email:
+    bank_url: https://www.sc.com/in/
+    subject: Verification email for your Standard Chartered Bank account
+    mail_content_type: text/html
+    template_file: email-confirmation.html
+    attachment: Null
+    attachment_name: Null

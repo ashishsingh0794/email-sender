@@ -1,0 +1,18 @@
+2023-08-20 15:43:24.202 - app - INFO - _connect:78 - 
+	Type: Mail Sender 
+	Connection to server: (smtp.gmail.com, 465) 
+	Username : ashishsingh50899@gmail.com 
+	Connected (status): True
+
+2023-08-20 15:43:24.206 - app - INFO - _validate_recipients:63 - ashishsingh0794@gmail.com is a valid email address
+2023-08-20 15:43:24.206 - app - INFO - _send_email:88 - Sending to ashishsingh0794@gmail.com
+2023-08-20 15:43:27.159 - app - INFO - _send_email:90 - Email sent successfully to ashishsingh0794@gmail.com
+2023-08-20 15:43:27.164 - app - INFO - _validate_recipients:63 - ashishsingh94@hotmail.com is a valid email address
+2023-08-20 15:43:27.165 - app - INFO - _send_email:88 - Sending to ashishsingh94@hotmail.com
+2023-08-20 15:43:29.795 - app - INFO - _send_email:90 - Email sent successfully to ashishsingh94@hotmail.com
+2023-08-20 15:43:29.796 - app - INFO - _disconnect:83 - 
+	Type: Mail Sender 
+	Connection to server: (smtp.gmail.com, 465) 
+	Username : ashishsingh50899@gmail.com 
+	Connected (status): False
+
