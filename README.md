@@ -4,7 +4,7 @@ This repository provides a python wrapper scripts to send Emails with easily con
 
 #### Usage
 1. Enter your SMTP config and credential to provided .env configuration file.
-2. Setup [Email config file](config/email_params.yml) as per the required use-cas.
+2. Setup [Email config file](config/email_params.yml) as per the required use-case.
 3. Look out for the below variables options defined in the main.py file:-
 
 | Option              | Description                   | Type | Required  |
