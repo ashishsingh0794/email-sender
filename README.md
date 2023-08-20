@@ -16,7 +16,6 @@ This repository provides a python wrapper scripts to send Emails with easily con
 | `email_data`        | Default value to set in case Email is type of plain text | String | no |
 
 __Note__: 
-1. If you want to use gmail credentials for email sending/testing, please follow [support.google](https://support.google.com/accounts/answer/185833?hl=en) 
-url for enabling 2 step verification and create your app password.
+1. If you want to use gmail credentials for email sending/testing, please follow [support.google](https://support.google.com/accounts/answer/185833?hl=en) for enabling 2 step verification and create your app password.
 2. Logger is currently configured [Logger config file](config/logging.yml) to output on both std console and file output at .logs. 
 Configure the setup as per the need or use self customized logger.
