@@ -4,7 +4,7 @@ This repository provides a python wrapper scripts to send Emails with easily con
 
 #### Usage
 1. Enter your SMTP config and credential to provided .env configuration file.
-2. Setup [Email config file](config/email_params.yml) as per the required use-case.
+2. Setup [email config file](config/email_params.yml) as per the required use-case.
 3. Look out for the below variables options defined in the main.py file:-
 
 | Option              | Description                   | Type | Required  |
@@ -17,5 +17,5 @@ This repository provides a python wrapper scripts to send Emails with easily con
 
 __Note__: 
 1. If you want to use gmail credentials for email sending/testing, please follow [support.google](https://support.google.com/accounts/answer/185833?hl=en) for enabling 2 step verification and create your app password.
-2. Logger is currently configured [Logger config file](config/logging.yml) to output on both std console and file output at .logs. 
+2. Logger is currently configured [logger config file](config/logging.yml) to output on both std console and file output at .logs. 
 Configure the setup as per the need or use self customized logger.
