@@ -19,3 +19,6 @@ __Note__:
 1. If you want to use gmail credentials for email sending/testing, please follow [support.google](https://support.google.com/accounts/answer/185833?hl=en) for enabling 2 step verification and create your app password.
 2. Logger is currently configured [logger config file](config/logging.yml) to output on both std console and file output at .logs. 
 Configure the setup as per the need or use self customized logger.
+
+Please reach out to ashishsingh0794@gmail.com in case of any question or query. Would be happy to help! 
+Also, please give a star if this helps you!
